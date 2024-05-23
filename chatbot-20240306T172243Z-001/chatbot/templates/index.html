@@ -1,0 +1,253 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techno</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="navbar">
+    <nav class="navbar navbar-fixed-top ">
+      <a class="navbar-brand" href="#" style="color: rgb(14, 14, 14);">
+        <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="bot" style="width:40px;height:40px;"><b>
+          &emsp;Techno &emsp; </b></a>
+      <div class="nav navbar-nav">
+        <button value="submit" class="btn"> <a href="/logout">logout</a></button>
+
+      </div>
+
+    </nav>
+  </div>
+
+
+
+  <div class="sidebar">
+    <h2></h2>
+
+    <br>
+    <a href="/index"><i class="fa fa-fw fa-home"></i> Home</a><br>
+    <!-- <a href="/clear"><i class="fa fa-trash" aria-hidden="true"></i> Clear Chat</a><br> -->
+
+    <!-- Button to Open the Modal -->
+
+    <button class="btn" data-toggle="modal" data-target="#myModal">
+      <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> About Us</a><br>
+    </button>
+    <a href="#" id="refresh"><i class="fa fa-trash" aria-hidden="true"></i> Clear chat</a><br>
+    <!-- <a class="nav-link" data-toggle="modal" data-target="" href="#">Suggestion box</a> -->
+    <a href="/suggestion"> <i class="fa fa-envelope" aria-hidden="true"></i> Suggestions</a><br>
+  </div>
+  <script type="text/javascript">
+    var refreshButton = document.getElementById("refresh");
+
+    refreshButton.addEventListener("click", function () {
+      location.reload();
+    });
+
+
+
+
+  </script>
+
+
+  <div class="main">
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"> Padmakanya multiple campus</h4>
+
+
+
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img src="{{ url_for('static', filename='img/pk.jpg') }}" alt="pk" style="height: 20%; width:450px;">
+            <p style=" font-size:14px; text-align: justify;">Padma Kanya Multiple Campus (PKMC) was established in
+              1951(Aswin 2008 B.S.) as first women’s campus of Nepal. Initially, its academic activities were brought
+              into operation at the present location of Kanya School, Dillibazar.
+              King Tribhuvan inaugurated the campus.At the time of establishment, its academic programme started in
+              eight subjects of humanities.<br><br>
+
+              The campus then was shifted to nearby Shankardev Campus. Later on, it was transferred to the present
+              location and ever since, the academic activities have been running over here.
+              Presently the campus has been offering higher educational degrees in Humanities and Social Sciences,
+              Management and Science.
+              PKMC possesses 4.6 acre of land. A number of buildings have been constructed for classrooms, library,
+              laboratories, and hostels including play-grounds within the campus premises.
+              Quality education for women empowerment is the motto of this Campus.<br><br>
+
+              Moderately meeting its infrastructural requirements, the Campus has five buildings— two for conducting
+              classes, and accommodating administrative facilities, one for the computer laboratory, physical and
+              e-library, one for girls’ dormitory with the capacity of 200 students, and an old-hostel building which
+              after renovation is planned to be used for Bachelor of Hotel Management (BHM) program.
+              A few other smaller built spaces accommodate campus cafeteria and Dance Section with theater and class
+              facilities for the Master’s program.
+              Although the campus has spacious area, it still requires additional built-space to accommodate the growing
+              number of classes with the expansion of academic programs, and a library with sufficient resources to
+              serve the academic needs of students. Further, the library is in a dire need of expansion of its
+              collection of books, journals, newspaper, magazines, and periodicals with e-library extension and
+              upgradation.</p>
+
+
+            <h4>Contact Us</h4>
+
+            <ul>
+
+              <li style="margin-left:15px"> Email: info@pkcampus.com.np</li>
+              <li style="margin-left:15px">Phone: +977-01-4224149, 4221712 </li>
+            </ul>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+
+
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="msgner">
+
+
+      <main class="msger-chat">
+        <div class="msg left-msg">
+          <div class="msg-img" style="background-image: url(/static/img/bot.png)"></div>
+          <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">Techno</div>
+              <!-- <div class="msg-info-time">12:45</div> -->
+            </div>
+            <div class="msg-text">
+              Hi,I am Techno! Go ahead and send me a message.
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+      <form class="msger-inputarea">
+        <input type="text" class="msger-input" id="textInput" placeholder="Enter your message..." autocomplete="off">
+        <button type="submit" class="msger-send-btn"><img src="{{ url_for('static', filename='img/send.png') }}" alt="Send" style="width:40px;height:40px;"></button>
+      </form>
+    </div>
+    <!-- partial -->
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+    <script>
+
+      const msgerForm = get(".msger-inputarea");
+      const msgerInput = get(".msger-input");
+      const msgerChat = get(".msger-chat");
+     
+
+
+      const BOT_IMG = "/static/img/bot.png";
+      // const PERSON_IMG = "https://icons8.com/icon/21350/customer";
+      const PERSON_IMG = "/static/img/user.png";
+
+
+
+
+      const BOT_NAME = "Techno";
+      const PERSON_NAME = "You";
+      msgerForm.addEventListener("submit", event => {
+        event.preventDefault();
+        const msgText = msgerInput.value;
+        if (!msgText) return;
+        appendMessage(PERSON_NAME,PERSON_IMG, "right", msgText);
+        msgerInput.value = "";
+        botResponse(msgText);
+      });
+
+
+
+      function appendMessage(name,img, side, text) {
+        //   Simple solution for small apps
+        const msgHTML = `
+   <div class="msg ${side}-msg">
+    <div class="msg-img" style="background-image: url(${img})"></div>
+  <div class="msg-bubble">
+    <div class="msg-info">
+      <div class="msg-info-name">${name}</div>
+      
+    </div>
+    <div class="msg-text">${text}</div>
+    </div>
+   </div>
+   `;
+
+        msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+        msgerChat.scrollTop += 500;
+      }
+      function botResponse(rawText) {
+        // Bot Response
+        $.get("/get", { msg: rawText }).done(function (data) {
+          console.log(rawText);
+          console.log(data);
+          const msgText = data;
+          appendMessage(BOT_NAME,BOT_IMG, "left", msgText);
+        });
+      }
+
+
+      // Utils
+      function get(selector, root = document) {
+        return root.querySelector(selector);
+      }
+
+    </script>
+
+
+  </div>
+
+
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+  {% for mes in messages %}
+  <div class="alert alert-success alert-dismissible" id="alert" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>{{ mes }}</strong>
+  </div>
+  {% endfor %}
+  {% endif %}
+  {% endwith %}
+
+
+
+</body>
+
+</html>

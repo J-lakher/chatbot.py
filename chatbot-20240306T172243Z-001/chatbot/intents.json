@@ -1,0 +1,1190 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey there",
+          "Good morning",
+          "Good afternoon",
+          "Hi Techno",
+          "Techno"
+        ],
+        "responses": [
+          "Hello, how can I assist you?",
+          "Hi there, how can I help?",
+          "Hey, how can I assist you today?"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info",
+          "Not sure I understand"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What is your name?",
+          "May I know your name?",
+          "what's your name?",
+          "who are you?",
+          "How do you Identity yourself"
+        ],
+        "responses": [
+          "My name is Techno. Nice to meet you!",
+          "I'm Techno. What can I do for you?"
+        ]
+      },
+      {
+        "tag": "health",
+        "patterns": [
+          "How are you?",
+          " How are you doing?",
+          "Are you well?",
+          "What's up?"
+        ],
+        "responses": [
+          "I do not have emotions,but I am functioning well and ready to assist you with any  of your questions . How may I assist you today?"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "How old are you?",
+          "What is your age?",
+          "When were you born?"
+        ],
+        "responses": [
+          "I am an AI chatbot, so I don't have an age!",
+          "I was created recently, so I don't have an age like humans do."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "What is your location?",
+          "Where do you come from?",
+          "What is your physical Location?",
+          "Where do you exist?",
+          "where are you from??"
+        ],
+        "responses": [
+          " I am an AI chatbot.I do not have any Physical Location",
+          "I exist in the digital world, so I don't have a physical location like humans do."
+        ]
+      },
+      {
+        "tag": "creator",
+        "patterns": [
+          "Who created you?",
+          "Who made you?",
+          "Who build you",
+          "Who does coding of yours?",
+          "What company created you?"
+        ],
+        "responses": [
+          "I was created by Pramila and Jagriti, for Bsc.CST deparment's college enquiry.",
+          "Pramila and Jagriti developed me to help people like you with information and tasks."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need some help.",
+          "Could you assist me?"
+        ],
+        "responses": [
+          "Of course, I'm here to help you! What do you need assistance with?",
+          "Sure, how can I assist you today?"
+        ]
+      },
+      {
+        "tag": "Padmakanya_location",
+        "patterns": [
+          "What is the surrounding area like?",
+          " where is Padmakanya multiple campus located?",
+          "PK campus loction",
+          " what is the location of padmakanya campus?"
+        ],
+        "responses": [
+          "The college is located in Baghazar, Kathmandu. It is easily accessible by public transportation. The surrounding area is Ratnapark."
+        ]
+      },
+      {
+        "tag": "Estabhish",
+        "patterns": [
+          "PadmaKanya Multiple Campus establised?",
+          "when was padmakanya established?",
+          "PKMC started?",
+          "College estabisted?",
+          "Campus Build?"
+        ],
+        "responses": [
+          " PadmaKanya Multiple Campus was establish in Aswin 2005 B.S. (1951 A.D.)"
+        ]
+      },
+      {
+        "tag": "Number",
+        "patterns": [
+          " what is the Phone number of PadmaKanya Multiple Campus?",
+          "Number of Padmakanya   campus?"
+        ],
+        "responses": [
+          "Sure, here is the phone number of PadmaKanya Multiple Campus +977-01-4224149, 4221712"
+        ]
+      },
+      {
+        "tag": "Contact",
+        "patterns": [
+          "How can we  contact college?",
+          "phone number of Padmakanya Multiple campus?"
+        ],
+        "responses": [
+          "You can contact college Through Phone number or email or you can visit the campus. Phone number:+977-01-4224149, 4221712 and Email:info@pkcampus.com.np"
+        ]
+      },
+      {
+        "tag": "Email_address",
+        "patterns": [
+          " what is the Email Address of PadmaKanya Multiple Campus?",
+          " can you provide me the email of PadmaKanya Campus?",
+          " email?",
+          " what is the email Addres?"
+        ],
+        "responses": [
+          "Here is the Email Address info@pkcampus.com.np"
+        ]
+      },
+      {
+        "tag": "Website",
+        "patterns": [
+          "  what is the website of PadmaKanya Multiple Campus?",
+          " where is the website?",
+          " what is the  website of campus?"
+        ],
+        "responses": [
+          "Here's the website: https://pkcampus.edu.np/",
+          "Sure, Here is the Link  https://pkcampus.edu.np/"
+        ]
+      },
+      {
+        "tag": "moto",
+        "patterns": [
+          "moto of Padmakanya?",
+          "moto of campus?"
+        ],
+        "responses": [
+          "'Quality Education for Women' is the moto of the Campus"
+        ]
+      },
+      {
+        "tag": "History",
+        "patterns": [
+          " History of Campus ",
+          " History of padmakanya Campus",
+          " Tell me history of PK",
+          " full form of pkmc"
+        ],
+        "responses": [
+          "Padma Kanya Multiple Campus (PKMC) was established in 1951(Aswin 2008 B.S.) as first women's campus of Nepal. Initially, its academic activities were brought into operation at the present location of Kanya School, Dillibazar.At the time of establishment, its academic programme started in eight subjects of humanities.The campus then was shifted to nearby Shankardev Campus. Later on, it was transferred to the present location and ever since, the academic activities have been running over here. Presently the campus has been offering higher educational degrees in Humanities and Social Sciences, Management and Science. "
+        ]
+      },
+      {
+        "tag": "campus_tours",
+        "patterns": [
+          "Can I schedule a campus tour?",
+          "Best time to visit campus?"
+        ],
+        "responses": [
+          "Yes, you can schedule a campus tour by getting appointment with the person whom you want to meet. The best time to visit campus is 10:00 AM to 3:00 PM, Sunday to Friday."
+        ]
+      },
+      {
+        "tag": "class_size",
+        "patterns": [
+          "How large are the classes?",
+          " how many class rooms are there in padmaknya?",
+          " what is the Number of class room in padmaknya Campus?"
+        ],
+        "responses": [
+          "Padma Kanya Campus has more than 50 spacious classrooms with four big halls in Ratna Deep Bhawan and two halls (Sagarmatha hall and Danish hall) in Maitri Bhawan that facilitate seminars, workshop programs. "
+        ]
+      },
+      {
+        "tag": "chief",
+        "patterns": [
+          " Padmakanya Multiple campus's chief?",
+          " what is the name of Campus chief's name of Padmakanya Multiple Campus?",
+          " who is the Campus chief of padmakanya?",
+          " what is the  name of the campus chief?"
+        ],
+        "responses": [
+          " The appointed campus chief of PadmaKanya Multiple Campus is Prof.Dr JayaLaxmi Pradhan."
+        ]
+      },
+      {
+        "tag": "canteen",
+        "patterns": [
+          "Do padmakanya multiple campus has canteen facility?",
+          " Is there Canteen in Campus?",
+          " canteen in padmakanya?"
+        ],
+        "responses": [
+          "Yes, there is canteen  facility with variety of  delicious food items and is also cost effective. "
+        ]
+      },
+      {
+        "tag": "director_of_csit",
+        "patterns": [
+          " who is the director of bsc.csit in padmakanya?",
+          " what is the name of director of science faculty?",
+          "  who is the director of csit?",
+          " who is the head of science department?"
+        ],
+        "responses": [
+          "The director of science department is Prof. Mr. Acchutaram Pranidha."
+        ]
+      },
+      {
+        "tag": "library",
+        "patterns": [
+          "Do PadmaKanya Multiple Campus have library?",
+          "library in PadmaKanya Multiple Campus?",
+          " e-library in PadmaKanya Multiple Campus?",
+          "Is there Library?"
+        ],
+        "responses": [
+          "Yes, there is huge library building, and also e-library area in padmaKanya Multiple Campus with thousands of books, access to e-books, newsletters, online newsletters, magazine relating to programs, and other educating topics"
+        ]
+      },
+      {
+        "tag": "Student_Services",
+        "patterns": [
+          "what are the different student services in padmankanya multiple campus?",
+          " Is there any services for specially-abled services?",
+          " what are the different facility for girls?"
+        ],
+        "responses": [
+          "Yes, PadmaKanya Multiple Campus take care of its students a lot, there is pad machine for our students, health-room, counselling room, and also provide extra care to the specially-abled students with better services."
+        ]
+      },
+      {
+        "tag": "Csit_cost_in_padmakanya",
+        "patterns": [
+          "how much does tuition cost  in padmakanya?",
+          "tell me about detail Fee structure for csit in padmakanya?",
+          "what is the fee structure of csit in padmakanya?",
+          "can you provide me fee struture of csit"
+        ],
+        "responses": [
+          "Tuition for Bsc.CSIT is 3,80,000.At the time of admission you have to pay 80000,which include First semester fee and 10000 security deposit."
+        ]
+      },
+      {
+        "tag": "BSc.Csit_info",
+        "patterns": [
+          "Tell me about the Bsc.CSIT program",
+          "courses offered in the Bsc.CSIT program?",
+          "overview of the BSc.CSIT program?",
+          "Tell about me about csit",
+          "tell me something about csit?",
+          "what is bsc csit"
+         
+        ],
+        "responses": [
+          "The Bsc.CSIT program focuses on computer science and information technology, and offers courses such as Advanced Java programming, Web Technology, Artifical Technology, DAA and many more. The Bsc.CSIT program covers programming, technology, Hardware and software knowledge and offers courses such as Advanced Java programming, Web Technology, Artifical Technology, DAA and many more. The Bsc.CSIT program has a curriculum that includes computer science and information technology, and offers courses such as Advanced Java programming, Web Technology, Artifical Technology, DAA and many more."
+        ]
+      },
+      {
+        "tag": "application_requirements",
+        "patterns": [
+          "  what are the requirements for submitting an application?",
+          "Do I need to submit a personal statement or letters of recommendation?"
+        ],
+        "responses": [
+          "To submit an application, you will need to provide +2 marksheet, Character Certificate, Migration Certificate, SEE marksheet, Character Certificate and other documents as asked. You may also be required to submit a personal statement or letters of recommendation, depending on the program."
+        ]
+      },
+      {
+        "tag": "career_services",
+        "patterns": [
+          "What career services are available to students?",
+          "Can you tell me about job placement partners for graduates?"
+        ],
+        "responses": [
+          "We offer various career services to students, including guest lectures, IT club, Meet and greet to industry exposure. Our graduates have a high job placement rate, with many finding employment in Education Sector, IT Sector, Health Care, and many more."
+        ]
+      },
+      {
+        "tag": "admissions_deadlines",
+        "patterns": [
+          " when is the application deadline for the upcoming semester?",
+          "Can I still apply for the fall semester?"
+        ],
+        "responses": [
+          "The application deadline for the upcoming semester is closed. Unfortunately, we are no longer accepting applications for the fall semester."
+        ]
+      },
+      {
+        "tag": "Programs",
+        "patterns": [
+          " what are the different Academic programs in PadmaKanya Multiple Campus?",
+          " how many programs are there in PadmaKanya Multiple Campus?"
+
+        ],
+        "responses": [
+          "There are total 22 programs running in padmaKanya Multiple Campus, 12 programs offering in Bachelor, 10 programs in Master."
+        ]
+      },
+      {
+        "tag": "Other_faculty",
+        "patterns": [
+          " What are the Other faculty in Padmakanya multiple campus?",
+          "How many faculties are there in padmakanya"
+        ],
+        "responses": [
+          " There are total 3 faculty in padmakanya multiple campus: Faculty of Humanities & Social Sciences, Faculty of Management, and Institute of Science & Technology."
+        ]
+      },
+      {
+        "tag": "Different_academics",
+        "patterns": [
+          "  what are the different bachelor academics in Padmakanya multiple campus?",
+          "others Bachelor Program in Padmaknya Campus?"
+        ],
+        "responses": [
+          " There are Bachelor in Business Administration (BBA), Bachelor in Business Management (BBM), Bachelor in Computer Application (BCA), Bachelor in Hotel Management (BHM), Bachelor in Public Service & Goverance (BPSG), Bachelor in Information (BIT), Bachelor in General Science (BGS)"
+        ]
+      },
+      {
+        "tag": "Master_academics",
+        "patterns": [
+          " what are the  different Master academics in Padmakanya multiple campus?",
+          "  what are the different Master Programs in Padmaknya?"
+        ],
+        "responses": [
+          " There are Master of Arts (MA) in English, Master of Arts (MA) in Nepali , Master of Arts (MA) in Economics,Master of Arts (MA) in Rural Development, Master of Arts (MA) in Political Science, Master of Arts (MA) in Sociology, Master of Arts (MA) in Population Studies, Master of Arts (MA) in Dance, Master of Business Studies (MBS), Master in Information Technology (MIT)."
+        ]
+      },
+      {
+        "tag": "Research_Activities",
+        "patterns": [
+          "Do padmakanya multiple campus follow Research Activities Teaching methodology ?"
+        ],
+        "responses": [
+          "PKMC emphasizes research-based teaching activities and has established a Research Management Cell (RMC) to support both academic research and innovation. The RMC engages students, faculty, and collaborative researchers in generating new knowledge and fostering research-minded scholars for societal, corporate, and political impact."
+        ]
+      },
+      {
+        "tag": "Career_Partners",
+        "patterns": [
+          "who are the different  career partners with padmakanya mutliple campus?",
+          " Which campanies are the partners of padmakanya multiple campus?",
+          "Are career services in padmakanya multiple campus?"
+        ],
+        "responses": [
+          "Yes, there are different career services partners associated with PadmaKanya Multiple Campus, some of the career partners are: Daraz,Pathao, Reduct, Teach for Nepal, YoungInnovations, Khat"
+        ]
+      },
+      {
+        "tag": "Students_Number",
+        "patterns": [
+          " what is the  total students in padmakanya  campus?",
+          " what is the  number of students in padmakanya multiple campus?",
+          "how many students are studying in padmakanya"
+
+        ],
+        "responses": [
+          "The total number of students is multiple campus is more than 7000 in all the progrmas."
+        ]
+      },
+      {
+        "tag": "Bsc.Csit_Started",
+        "patterns": [
+          "When was Bsc.Csit started in PadmaKanya Multiple Campus?",
+          "When does PadmaKanya Multiple Campus started Bsc.Csit?",
+          "When did Bsc. CSIT started in Campus?",
+          "When was CSIT Started?"
+        ],
+        "responses": [
+          "Bsc.CSIT first started in PadmaKanya Multiple Campus in 2075 B.S. (2018)"
+        ]
+      },
+      {
+        "tag": " csit_Coordinator",
+        "patterns": [
+          " who is the  Coordinator of Bsc.Csit  in PadmaKanya Multiple Campus?",
+  
+          " what is the name of  Coordinator of BSc.CSIT in padmaknya?",
+          " who is the Cordinator of bsc.csit in padmakanya",
+          " who is the coordinator of bsc.csit"
+        ],
+        "responses": [
+          "Prof. Mr Ramesh singh Saud is the coordinator of Bsc.CSIT in PadmaKanya Multiple Campus."
+        ]
+      },
+      {
+        "tag": "faculty",
+        "patterns": [
+          "Who teaches BSc CSIT courses?",
+          " CSIT Faculty Members?",
+          " what is the number of Faculty members are there in CSIT?",
+          "how many teachers are the in csit department"
+        ],
+        "responses": [
+          " Our faculty is dedicated to providing students with high-quality education and mentorship. Some of the faculty members are Mr. Ramesh Sigh Saud (Coordinator), Mr. Sudip Khadka, Mr. Kumar Parsun, Mr. Janak Raj Joshi, Mr. Bhim Bahadur Rawat, and other faculty members who are highly experienced and knowledgeable faculty members who hold advanced degrees in computer science and related fields "
+        ]
+      },
+      {
+        "tag": "Extra_Curriculum",
+        "patterns": [
+          " Do students participate in extra curriculum in PadmaKanya Multiple campus?",
+          "What are different extra curriculum in Padmankanya Multiple Campus?",
+          "What are the extra curriculum for students in padmakanya Campus?"
+        ],
+        "responses": [
+          "Yes, students do participate in extra curriculum such as Basketball, Badminton, Volleyball, exhibition, Fairs, and many more. ",
+          "Basketball, Badminton, Volleyball, exhibition, Fairs are some extra cirriculum activities for the students that students can participate In Padmakanya Campus."
+        ]
+      },
+      {
+        "tag": "Bsc.Csit_extra_courses",
+        "patterns": [
+          "Do Bsc.csit students participate in extra curriculum?",
+          "What are different extra curriculum Bsc.Csit students participate?"
+        ],
+        "responses": [
+          "Yes, recently girls won Hackthon, and futsal. Students do participate in extra curriculum. We believe in overall development in PadmaKanya Multiple Campus"
+        ]
+      },
+      {
+        "tag": "Scholarship",
+        "patterns": [
+          "Who is eligible for scholarship",
+          "Who can get scholarship?",
+          "Is there scholarship for student in Bsc.CSIT?",
+          "Who can apply for scholarship?",
+          "Is there any Scholarship Facility?"
+        ],
+        "responses": [
+          "A students who have studied 10+2 in goverment schools are eligble for scholarship, however, students who topped the semester are also awarded with some cash rewards."
+        ]
+      },
+      {
+        "tag": "Batch",
+        "patterns": [
+          "How many batches are there in csit?",
+          " how many  batches  currently studying csit in padmakanya?",
+          "How many batches are there in Bsc.csit program?",
+          "How many batches are there in Padmakanya Multiple campus?"
+        ],
+        "responses": [
+          "There are 5 batches of Bsc.CSIT that aare running in padmakanya multiple campus."
+        ]
+      },
+      {
+        "tag": "Batch_Size",
+        "patterns": [
+          "how many seats are there for csit in padmakanya?",
+          "How many students can get admission?",
+          "students eligible for Bsc.csit?",
+          "Are there sections for Bsc.CSIT?",
+          "how many section are there in csit?"
+        ],
+        "responses": [
+          " There are 72 seats in Bsc.CSIT in PadmaKanya Multiple Campus divided in 2 sections.",
+          "There are two sections, each section has 32 students respectively."
+        ]
+      },
+      {
+        "tag": "Program",
+        "patterns": [
+          "What types of program does students get to enjoy during their study?",
+          "What types of program students conduct?",
+          "Do students have fresher's party?",
+          "Do seniors get farewell?"
+        ],
+        "responses": [
+          "Students conduct fresher's party for newly enrolled batch, and senior also get the farewell party.",
+          "Yes, students are involved in fresher's party with their senior",
+          "Yes, there's norm to give farewell to students."
+        ]
+      },
+      {
+        "tag": "Department",
+        "patterns": [
+          "Where is the bsc.csit department?",
+          "Where is bsc.csit office located?",
+          "Where is BSc.CSIT department in padmakanya multiple campus?"
+        ],
+        "responses": [
+          " The Bsc.CSIT department is located upstairs of library building in the PadmaKanya Multiple Campus."
+        ]
+      },
+      {
+        "tag": "Bsc.CSIT",
+        "patterns": [
+          "What is BSc.CSIT?",
+          "What's is the full form of Bsc.CSIT?",
+          "What's Bsc.CSIT stand for?",
+          "Can you tell me full form of bsc.csit?"
+        ],
+        "responses": [
+          "Bsc.CSIT(Bachelor in Science in Computer Science) is the 4-year graduation program conducted by TUOIST with the aim to provide the knowledge of computer science and information technology in the real-time environment.",
+          "The full form of BSc.CSIT is Bachelor in Science in Computer Science and Information Technology."
+        ]
+      },
+      {
+        "tag": "Syllabus",
+        "patterns": [
+          "Can you tell me the syllabus of Bsc.CSIT?",
+          "Provide me the syllabus of Bsc.CSIT?",
+          "What is the syllabus of Bsc.csit?",
+          "What are the different subjects in csit?",
+          "which type of subjects are categorized in bsc. csit?"
+        ],
+        "responses": [
+          " You can find the entire downloadable syllabus of Bsc.CSIT on https://www.tuiost.edu.np/ ."
+        ]
+      },
+      {
+        "tag": "Lab",
+        "patterns": [
+          "Is there lab facility for student?",
+          " Is there any computer lab for Bsc.CSIT?",
+          " Do you have any lab?",
+          "How many computers are there in lab?",
+          "what is the number of computer in th lab?"
+        ],
+        "responses": [
+          "Yes, There is huge lab available for each students and the Networking lab is on process."
+        ]
+      },
+    
+      {
+        "tag": "Parking",
+        "patterns": [
+          "Is there parking facility available?",
+          "Do padmakanya has parking loudge?",
+          "Is there parking spot?"
+        ],
+        "responses": [
+          " Yes, there's separate parking loudge at the ground of Padmakanya multiple campus."
+        ]
+      },
+      {
+        "tag": "Hostel",
+        "patterns": [
+          "Do padmakanya multiple campus has hostel?",
+          "Is there hostel?",
+          "Is there hostel facility?",
+          "Is there any hostel for girls?"
+        ],
+        "responses": [
+          " Yes, there's hostel facility available in the padmakanya multiple campus.",
+          "There is hostel facility for students in the Campus."
+        ]
+      },
+      {
+        "tag": "Hostel_fee",
+        "patterns": [
+          "What is the hostel fee?",
+         
+          "how much does hostel cost in padmakanya"
+        ],
+        "responses": [
+          " The hostel fee per student is 1500 per month. At the time of the Admission you have to provide 12300,which include hostel fee for 6 month and 2000 for deposit and extra 300 for the wifi."
+        ]
+      },
+      {
+        "tag": "Student_In_Hostel",
+        "patterns": [
+          "How many students are there in hostel?",
+          "How many students can accomodate in the hostel?",
+          "What is the number of students in the hostel?"
+        ],
+        "responses": [
+          "The total number of students that hostel can accomodate is 200 with 2 students in each room.",
+          "There is the space for 200 students in the hostel where 2 students live in a room."
+        ]
+      },
+      {
+        "tag": "Csit_contact_info",
+        "patterns": [
+          "How can we contact csit department?",
+          "What is the number of CSIT department?",
+          "how to contact csit department"
+        ],
+        "responses": [
+          "You can contact CSIT department through Number 4221712  : or You can visit department physically. "
+        ]
+      },
+      {
+        "tag": "Area",
+        "patterns": [
+          "What is the total area of Padmaknya CAmpus?",
+          "How much area does the padmakanya has?"
+        ],
+        "responses": [
+          "Padmakanya Multiple Campus possesses total of 4.6 acre of Land. "
+        ]
+      },
+      {
+        "tag": "Hardness",
+        "patterns": [
+          " Is CSIT entrance exam hard?",
+          "Is the CSIT admission exam difficult?"
+        ],
+        "responses": [
+          "The exam is not as difficult as engineering or medical, so prepare accordingly because you will not be tested on anything other than what you learned in high school. BSCCSIT.COM, the CSIT Association of Nepal, offers several short crash courses for preparation as well as regular mock tests. ."
+        ]
+      },
+      {
+        "tag": "Pass_marks",
+        "patterns": [
+          "What is the pass marks for BSC CSIT in Nepal?",
+          "What is the eligibility Criteria to Study BSc CSIT in Nepal?",
+          "What are the Eligibility Requirements for Studying BSc CSIT in Nepal?"
+        ],
+        "responses": [
+          " Students must have completed intermediate level/plus two with a minimum of 55% in the Science stream. Math is an optional subject in class 12. Alternatively, students must obtain an A level in Science with a minimum grade of D."
+        ]
+      },
+      {
+        "tag": "Credit_hours",
+        "patterns": [
+          "What is the credit hours for Csit?",
+          "What is the credit hours of csit?"
+        ],
+        "responses": [
+          "Bachelor of Science in the Computer Science and Information Technology (CSIT) is a four-year (eight-semester) degree program affiliated to Tribhuvan University. The program is comprised of computer science, information technology and allied courses of 126 credit hours."
+        ]
+      },
+      {
+        "tag": "Compulsory_Subject",
+        "patterns": [
+          "Is math required for CSIT?",
+          "Is biology necesaary for csit?",
+          "Is math necessary for CSIT?"
+        ],
+        "responses": [
+          " Physics and Mathematics must be studied in Grade 11 or Grade 12 or have a D grade in Science with Physics and Mathematics. They must have received at least a second division or C grade in all 11 and 12 results."
+        ]
+      },
+      {
+        "tag": "Minimum_grade",
+        "patterns": [
+          "What is the minimal grade requirement for CSIT?",
+          "What are the CSIT Eligibility Criteria?",
+          "What is the minimum grade to study CSIT?",
+          "What is CSIT Eligibility Criteria ?"
+        ],
+        "responses": [
+          "10+2 or equivalent qualification in Physics, Chemistry, and Mathematics. Each topic received a minimum grade of C. Note: For A Level, pupils must obtain a minimum grade of D in Physics, Chemistry, and Mathematics."
+        ]
+      },
+      {
+        "tag": "Studying_CSIT",
+        "patterns": [
+          "What should we learn at CSIT?",
+          "What should we study in CSIT?"
+        ],
+        "responses": [
+          "It is a combined Information Technology and Computer Science course. We study the design and analysis of software, software development tools, and hardware used to solve problems in a range of corporate settings in B Sc. CSIT."
+        ]
+      },
+      {
+        "tag": "Expected_salary",
+        "patterns": [
+          "What is the CSIT pay?",
+          "What is the salary of CSIT?"
+        ],
+        "responses": [
+          "According to Payscale, the average pay of students with a BSc. Csit in Nepal or a computer science degree in Nepal is around Npr 5,00,000, and the market has boosted the demand for IT workers in Nepal, according to Merojob."
+        ]
+      },
+      {
+        "tag": "Negative_Marking",
+        "patterns": [
+          "Is there a negative marking system in the CSIT exam?",
+          "Is there negative marking in CSIT exam?"
+        ],
+        "responses": [
+          " All of the questions will be MCQs (Multiple Choice Questions) or Objective Type. There will be no negative marking."
+        ]
+      },
+      {
+        "tag": "engineering_course",
+        "patterns": [
+          "Is CSIT a technical program?",
+          "Is CSIT an engineering course?"
+        ],
+        "responses": [
+          " Tech in Computer Science & IT (CSIT) students are taught many parts of computer science and information technology, and the programme is built around the engineering skills that a graduate engineer must have."
+        ]
+      },
+      {
+        "tag": "jobs_opporunities",
+        "patterns": [
+          "What occupations are available following CSIT?",
+          "What are the jobs after CSIT?",
+          "What are the scope of Bsc.csit in Nepal?",
+          "what is the scope of csit",
+          "please tell me about the carreer after bsc. csit"
+        ],
+        "responses": [
+          "In Nepal, there are numerous and potential career choices after earning a Bachelor's degree in computer science and information technology. After completing the IT course, students can advance their careers as system analysts, web developers, web designers, SEO/SEM analysts, QA analysts, and many other positions."
+        ]
+      },
+      {
+        "tag": "Cost",
+        "patterns": [
+         
+          "How much does CSIT cost?",
+          "what is the cost of studying csit?",
+          "What is the cost of a BSc CSIT in a Nepal government college?",
+          "What is the cost of BSc CSIT in Nepal government college?"
+         
+        ],
+        "responses": [
+          " CSIT in government colleges ranges between 3 and 4 lakhs. The fee structure for private colleges ranges from 6 lakhs to 15 lakhs. Many colleges are affiliated with foreign universities and charge fees in excess of 15 lakhs."
+        ]
+      },
+      {
+        "tag": "Pass_Marks",
+        "patterns": [
+          "What are the BSC CSIT pass marks?",
+          "How does the BSc.CSIT GRADING SYSTEM work?",
+          "What is the pass marks for BSC CSIT?",
+          "What is the BSc.CSIT GRADING SYSTEM?",
+          "what is the pass marks of each subject?"
+        ],
+        "responses": [
+          "The passing marks of each subject is generally 24, but if there's is theory subject like POM, Techical writing than the pass marks is 32. However, in percentage of the Grading System: Second Division 55%, Pass Division 40%, 70% in the first division, Distinction of 80% or higher "
+        ]
+      },
+      {
+        "tag": "difference",
+        "patterns": [
+          "What is the distinction between a BSc in Computer Science and a BSc in Computer Science and Information Technology?",
+          "What is the difference between BSc Computer Science and BSc CSIT?"
+        ],
+        "responses": [
+          " It is a three-year degree that saves you one year of time. those with a science background must apply for BSc. CSIT, whilst those with a non-science background may apply for BSc. (Hons) CS & SE."
+        ]
+      },
+      {
+        "tag": "Distinction",
+        "patterns": [
+          "What is the distinction between a software engineer and a BSc in CSIT?",
+          "What is the difference between software engineer and BSc CSIT?"
+        ],
+        "responses": [
+          "Computer science is mainly concerned with the programming and datatype structural parts of computers, whereas computer engineering is concerned with the design and creation of hardware and utilities. Information Technology is essentially the use of what the two majors build to store and map data in databases."
+        ]
+      },
+      {
+        "tag": "Semesters_of_csit",
+        "patterns": [
+          "How many semesters are there in the BSc Csit program?",
+          "How many semesters are there in Csit?"
+        ],
+        "responses": [
+          " There are eight(8) semester in CSIT has been divided into  the first, second, third, and fourth semesters, as well as the fifth, sixth, seventh, and eighth semesters. "
+        ]
+      },
+      {
+        "tag": "csit_Seats",
+        "patterns": [
+          "How many BSC CSIT seats are there in total in nepal?",
+          "How many seats are there in BSC CSIT in nepal?"
+        ],
+        "responses": [
+          " CSIT program provides seats to only about 2500 students would have the opportunity to pursue their career on this program. To pass the admission examination, the scholar must score at least 40 out of 100."
+        ]
+      },
+     
+      {
+        "tag": "Entrance_query",
+        "patterns": [
+          "Can we enroll in BSc CSIT without taking an admission exam?",
+          "Can we join BSc CSIT without entrance exam?"
+        ],
+        "responses": [
+          " In Nepal, the Institute of Science and Technology of Tribhuvan University administers an entrance exam for computer science and information technology. To engage in B. Sc. CSIT programs at component campuses and private colleges connected with Tribhuvan University of Nepal, an entrance exam is required."
+        ]
+      },
+      {
+        "tag": "Graduation_Duration",
+        "patterns": [
+          "In Nepal, how long is BSC CSIT?",
+          "How many years is BSC CSIT in Nepal?"
+        ],
+        "responses": [
+          "Bachelor of Science in Computer Science and Information Technology (B.Sc. CSIT) is a four-year study offered by Tribhuvan University that aims to educate students with a comprehensive understanding of information technology and computing."
+        ]
+      },
+      {
+        "tag": "Scholarship_Nepal",
+        "patterns": [
+          "Is there a scholarship available for CSIT?",
+          "Is there scholarship for CSIT?"
+        ],
+        "responses": [
+          "Each college provides a full scholarship to two students. TU identifies two students from each college as full scholarship recipients."
+        ]
+      },
+      {
+        "tag": "Results",
+        "patterns": [
+          "When does the semester result is published?",
+          "When does TU publish Bsc.CSIT semester result?"
+        ],
+        "responses": [
+          "Bsc.CSIT semester result usually come within 3 months, which is published by TU IOST department of Tribhuvan University"
+        ]
+      },
+      {
+        "tag": "Seats_in_Government",
+        "patterns": [
+          "How many BSc CSIT seats are available in Kathmandu Valley government colleges?",
+          "How many seats are allocated in government colleges in Kathmandu Valley for BSc CSIT?"
+        ],
+        "responses": [
+          " In Kathmandu, Nepal, there are various government and private colleges that provide B.Sc.CSIT courses. The renowned government college in the Kathmandu Valley of Nepal is Amrit Campus (Ascol), Patan Multiple Campus (PMC), Bhaktapur Multiple Campus (BMC), and PadmaKanya Multiple Campus (PKMC). These colleges all issue merit lists for students, and students who are on the list are eligible to attend the college. The following colleges have seats available: Amrit Campus (ASCOL) has 108 seats, Patan Multiple Campus (PMC) also has 108 seats, Bhaktapur Multiple Campus (BMC) also has 108 seats, and PadmaKanya Multiple Campus (PKMC) only has 72 places for ladies only."
+        ]
+      },
+      {
+        "tag": "Best_College",
+        "patterns": [
+          "Which is the best college in Kathmandu to study BSc.CSIT?",
+          "Which is the best college for studying BSc.CSIT Course in Kathmandu?",
+          "What are the best colleges for csit ?"
+        ],
+        "responses": [
+          " The best college is determined by whether it is public or private. Amrit Science Campus, PadmaKanya Multiple Campus (For girls) and Madan Bhandari Memorial are the top government BSc.SCIT colleges in Nepal, whereas Deerwalk is the greatest private BSc.CSIT college. Similarly, the rates for a government institution are around 2 lakh NRP, whereas Deerwalk charges 12 lakh NRP for four years."
+        ]
+      },
+      {
+        "tag": "eligible_faculty",
+        "patterns": [
+          "Can business students pursue a BSc in CSIT?",
+          "Can management students study for a BSc in CSIT?"
+        ],
+        "responses": [
+          " Bsc.CSIT is not only available to students with a science background. The initial batch of Bsc.CSIT students were management students, but because it is a Bachelor of Science, there was a problem because only science students could study BSC.CSIT in Nepal!! If you have a management experience, you can take courses like -BCA -BIM, These courses are comparable to Bsc.CSIT."
+        ]
+      },
+      {
+        "tag": "BCA_Comparsion",
+        "patterns": [
+          "Is CSIT and BCA the same thing?",
+          "Is Bsc.csit better than BCA?"
+        ],
+        "responses": [
+          " BCA is primarily for students with a commerce background who want to pursue a course in the IT field, whereas BSCIT is for students with a science background who want to pursue a more in-depth course."
+        ]
+      },
+      {
+        "tag": "pass_rate",
+        "patterns": [
+          " What is the pass_rate of CSIT in padmakanya multiple campus?",
+          "How is the pass rate at padmankanya multiple campus of Bsc.CSIT?",
+          "Pass rate of the CSIT"
+        ],
+        "responses": [
+          " The average pass rate of Bsc.CSIT is above 75% at padmankanya multiple campus."
+        ]
+      },
+      {
+        "tag": "class_schedule",
+        "patterns": [
+          "What is the class schedule of BSc.CSIT?",
+          "What timing does the class starts?",
+          "Is the Bsc.CSIT class morning or day in pk?"
+
+        ],
+        "responses": [
+          "The class schedule of different semester is different from 1st semester to 5th semseter students studies in the day, but the classes for students of 6th semester to 8th semester is morning."
+        ]
+      },
+      {
+        "tag": "Uniform",
+        "patterns": [
+          "Does Bsc.CSIT have uniform in padmakanya multiple campus?",
+          "Is there uniform in padmakanya for CSIT?",
+          "Do CSIT students wear uniform?",
+          "Is there dress code for csit students?"
+        ],
+        "responses": [
+          " Yes, there uniform for students studying Bsc.CSIT at PadmaKanya Multiple Campus."
+        ]
+      },
+      {
+        "tag": "studying_students",
+        "patterns": [
+          "How many students are studing Bsc.CSIT at padmakanya multiple campus?",
+          "students studying CSIT in PK? ",
+          "what are the total number of students studying CSIT?",
+          "how many students are there in csit in padmakanya"
+        ],
+        "responses": [
+          " The number of students studying BSC. CSIT is above 200 in Padmakanya Multiple campus."
+        ]
+      },
+      {
+        "tag": "political_affects",
+        "patterns": [
+          "Do Bsc.CSIT get affect by political aspects?",
+          "Do politics affect CSIT department?"
+        ],
+        "responses": [
+          "Generally, it's not but students wishing to join some students union, they are free to join."
+        ]
+      },
+      {
+        "tag": "enough_classroom",
+        "patterns": [
+          "Do padmakanya have enough classroom for Bsc.CSIT students?",
+          "How many classroom are there for CSIT department?",
+          "How many classrom are there for csit in padmakanya?"
+        ],
+        "responses": [
+          " The Bsc.CSIT has 6 classroom for their students in PadmaKanya Multiple Campus."
+        ]
+      },
+      {
+        "tag": "practical_knowledge",
+        "patterns": [
+          "Do studying Bsc.CSIT in Padmakanya provide practical knowledge?",
+          "Does Bsc.CSIT in PK has practical knowledge environment?"
+        ],
+        "responses": [
+          "Yes, after getting admission in Bsc.CSIT at padmakanya you will gain some practical knowledge considering different programming languages, devices and many more."
+        ]
+      },
+      {
+        "tag": "Guest_lecture",
+        "patterns": [
+          "Is there guest lecture giving to students?",
+          "Do Bsc.CSIT department of Padmankanya provide guest lecture?"
+        ],
+        "responses": [
+          "Yes, the guest lecture is considering as one of important aspect to build afterskills. Those lectures are provided by Industry professional in padmakanya."
+        ]
+      },
+      {
+        "tag": "attendance",
+        "patterns": [
+          "Does attendance is considered?",
+          "Does attendance affects?",
+          "Does attendence matters in csit?",
+          "What is the average percentage a student should consider?"
+        ],
+        "responses": [
+          "Yes, attendance is one of aspects that is need for internal marking of a student. The average percentage of a student should be 75%."
+        ]
+      },
+      {
+        "tag": "teacher_availability",
+        "patterns": [
+          "Are teachers always available at department?",
+          "Does teacher be available for students?",
+          "Are teachers available at college time?"
+        ],
+        "responses": [
+          "Yes, teacher are always available for students and solving the students problem during the campus time."
+        ]
+      },
+      {
+        "tag": "Compete_than_others",
+        "patterns": [
+          "Is studying Bsc.CSIT in padmakanya worthy?",
+          "How different is Bsc.CSIT in padmakanya than other co-ed colleges?",
+          "Why Bsc.CSIT in padmakanya?"
+        ],
+        "responses": [
+          "Yes, studying Bsc.CSIT is entirely worthy in Padmakanya. We provide top-notch to enhance our girls' skills, focusing on the motto to provide quality education for women empowerment."
+        ]
+      },
+      {
+        "tag": "High_fees",
+        "patterns": [
+          " Why the fee structure of Bsc.CSIT at padmakanya is higher than other government colleges?",
+          "Why fee structure is high in padmakanya?"
+        ],
+        "responses": [
+          " The fee structure of BSC.CSIT at padmakanya Multiple Campus is higher than other government college because we focus on demanding-skill that can help a student to develop herself, and survive in the emerging IT_market."
+        ]
+      },
+      {
+        "tag": "Boys_admission",
+        "patterns": [
+          "Does a boy can get admission in BSc.CSIT at Padmakanya Multiple Campus",
+          "What about boy admission, they can admission by chance?"
+        ],
+        "responses": [
+          "No, PadmaKanya Multiple Campus was establish to enhance the women, and provide them quality education. So, a boy can't get admission in any department of Padmakanya Multiple Campus."
+        ]
+      },
+      {
+        "tag": "class room",
+        "patterns": [
+          
+          "Are classroom well-equipped?",
+          "How many class rooms are there for csit in padmakanya?",
+          "How many class rooms are available for bsc.csit?"
+  
+        ],
+        "responses": [
+          " Yes, there are 6 classroom separate for BSc.CSIT department's student which contains operation projector, comfortable seats, air-exhaust."
+        ]
+      },
+      {
+        "tag": "procedure_admission",
+        "patterns": [
+          "How to get admission in Bsc.CSIT?",
+          "What is the procedure to get take admission in Padmakanya Bsc.CSIT?",
+          "What is the process to get admission",
+          "merit list"
+        ],
+        "responses": [
+          "Once you obtain the pass marks to pass the BSc.CSIT entrance exam, you need to fill the priority which is provided by TU.IOST, and list your priority campus/college.After that the campus/college publish their merit list, search for your name, and from here campus admission procedure needs to be considered."
+        ]
+      },
+      {
+        "tag": "government_Campus",
+        "patterns": [
+          "Is padmaKanya a governmenet or private college?",
+          "Is padmaKanya a governmenet or private campus?",
+          "Is Bsc.CSIT in padmakanya is private course"
+        ],
+        "responses": [
+          "Padmankanya is government campus established in 17th septmeber, 1977 by King Tribhuvan. However, the Bsc.CSIT program is considered as private course in Padmakanya, but Bsc.CSIT are not left out from the campus facilites or considered as private college's students."
+        ]
+      },
+      {
+        "tag": "Why_Padmakanya",
+        "patterns": [
+          " Why to choose padmakanya for BSc.CSIT?",
+          "Is PadmanKanya good for CSIT?",
+          "Why a girl should pursue to get admission in Bsc.CSIT at padmakanya multiple campus?"
+        ],
+        "responses": [
+          "Bsc.CSIT at padmankanya multiple campus is providing the best education in the Kathmandu valley, with lessen in fee structure, quality education, better skills, experienced teachers, as well as good infrastruture that a campus should provide to its students."
+        ]
+      },
+      {
+        "tag": "electives",
+        "patterns": [
+          "What are the available electives for the BSc. CSIT program?",
+          "Which elective is more focused in Bsc.CSIT?"
+        ],
+        "responses": [
+          "choosing an elective subject starts from 5th semester in Bsc.CSIT, the elective depends on the number of students willing to studing a specific elective subject. However, most students choose multimedia and image processing in 5th, e-commerce in 6th, Database Adminstration and Software project management in 7th, and Geographical Information system in 8th semester."
+        ]
+      },
+      {
+        "tag": "specific_requirements",
+        "patterns": [
+          "Are there any specific computer or software requirements for the BSc. CSIT program?"
+         
+        ],
+        "responses": [
+          "Yes, there are different specific device that students need to be familiar in the subjects like Digital Logic, Microprocessor, Computer Architecture, and others."
+        ]
+      },
+      {
+        "tag": "project_consideration",
+        "patterns": [
+          "What kind of projects do students work on in the BSc. CSIT program?",
+          "What kind of project students of Bsc.CSIT works?",
+          "What project does the senior has worked on?"
+        ],
+        "responses": [
+          "Students in the BSc. CSIT program may work on a wide range of projects depending on their area of interest and the specific course they are taking.However, some of the projects that students has worked on e-commerce sites, recommendation system, chatbots, image detection system, medical health system, and others."
+        ]
+      },
+      {
+        "tag": "research",
+        "patterns": [
+          " Is there a research component for the BSc. CSIT program",
+          "Are there any research opportunities available for students in the BSc. CSIT program?"
+        ],
+        "responses": [
+          " At padmakanya, the BSc. CSIT program offers a research component, such as the opportunity to participate in a research project or write a documentation."
+        ]
+      },
+      {
+        "tag": "Support_service",
+        "patterns": [
+          "What kind of support services are available for BSc. CSIT students?",
+          "Is there any support service available for students who need help beside program?"
+        ],
+        "responses": [
+          "Many institutions offering the BSc. CSIT program have a range of support services available for students. These may include academic advising, career services, and mental health and wellness resources."
+        ]
+      },
+      {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": [
+          "Sorry, I didn't understand.",
+          "Can you please rephrase that?",
+          "I'm not sure what you mean."
+        ],
+        "context_set": ""
+      }
+    ],
+    "fallback_responses": [
+      "Sorry, I didn't understand.",
+      "Can you please rephrase that?",
+      "I'm not sure what you mean."
+    ]
+  }
